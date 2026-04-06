@@ -25,13 +25,13 @@ Run `/session-handoff` at the end of any Claude Code session. It will:
 **Via npm (recommended):**
 
 ```bash
-npm install -g @samarthpatel24/claude-skill-session-handoff
+npm install -g @samarthpatel/claude-skill-session-handoff
 ```
 
 **Via npx (no install needed):**
 
 ```bash
-npx @samarthpatel24/claude-skill-session-handoff
+npx @samarthpatel/claude-skill-session-handoff
 ```
 
 **Via git:**

@@ -1,5 +1,5 @@
 {
-  "name": "@samarthpatel24/claude-skill-session-handoff",
+  "name": "@samarthpatel/claude-skill-session-handoff",
   "version": "1.0.0",
   "description": "Claude Code skill for session handoffs, end-of-day reports, and progress tracking",
   "keywords": ["claude", "claude-code", "claude-skill", "ai", "productivity"],
