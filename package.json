@@ -14,10 +14,7 @@
   "scripts": {
     "postinstall": "node install.js"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
-  "files": [
+"files": [
     "install.js",
     "session-handoff/"
   ]
