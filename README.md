@@ -25,13 +25,16 @@ Run `/session-handoff` at the end of any Claude Code session. It will:
 **Via npm (recommended):**
 
 ```bash
+# one-time setup — tells npm where to find @samarthpatel24 packages
+echo "@samarthpatel24:registry=https://npm.pkg.github.com" >> ~/.npmrc
+
 npm install -g @samarthpatel24/claude-skill-session-handoff
 ```
 
 **Via npx (no install needed):**
 
 ```bash
-npx @samarthpatel24/claude-skill-session-handoff
+npx @samarthpatel24/claude-skill-session-handoff --registry=https://npm.pkg.github.com
 ```
 
 **Via git:**
