@@ -60,7 +60,7 @@ See [examples/sample-handoff.md](examples/sample-handoff.md) for a realistic exa
 
 ## Works with
 
-- **[claude-historian](https://github.com/badass-courses/claude-historian)** (optional) — if installed, enriches the handoff with deeper session history search
+- **[claude-historian](https://github.com/Vvkmnn/claude-historian-mcp)** (optional) — if installed, enriches the handoff with deeper session history search
 - **[nightly-digest](https://github.com/samarthpatel24/nightly-digest)** (optional) — if you use nightly-digest, session-handoff will offer to copy summaries to `~/.claude/daily-summaries/` for automatic progress report generation
 
 ## Requirements
