@@ -1,6 +1,6 @@
 # claude-session-handoff
 
-A Claude Code skill that captures your session context into a structured handoff document — so the next session picks up exactly where you left off.
+A Claude Code skill that captures your session into a structured document — useful for carrying context between sessions, sharing progress with your team, or keeping a personal development log.
 
 ## What it does
 
@@ -10,7 +10,15 @@ Run `/session-handoff` at the end of any Claude Code session. It will:
 - List blockers and next steps
 - Write a `handoffs/YYYY-MM-DD.md` file in your project root
 
-No more losing context between sessions.
+## Use cases
+
+**Session continuity** — Resume exactly where you left off. No more re-explaining context to Claude at the start of a new session.
+
+**End-of-day reports** — Share a clean, structured summary of what you shipped with your manager, team lead, or client. The output is human-readable and requires no editing.
+
+**Progress tracking** — Build up a running log of `handoffs/` files over time. Flip back through them to see how a feature evolved, audit decisions, or write a retrospective.
+
+**Async team handoffs** — Passing work to a colleague? The handoff doc covers state, blockers, and next steps so they can pick up without a sync call.
 
 ## Installation
 
