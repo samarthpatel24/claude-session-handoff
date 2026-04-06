@@ -1,0 +1,21 @@
+{
+  "name": "claude-skill-session-handoff",
+  "version": "1.0.0",
+  "description": "Claude Code skill for session handoffs, end-of-day reports, and progress tracking",
+  "keywords": ["claude", "claude-code", "claude-skill", "ai", "productivity"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samarthpatel24/claude-session-handoff.git"
+  },
+  "bin": {
+    "claude-skill-session-handoff": "install.js"
+  },
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "files": [
+    "install.js",
+    "session-handoff/"
+  ]
+}

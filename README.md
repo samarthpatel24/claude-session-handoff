@@ -22,17 +22,25 @@ Run `/session-handoff` at the end of any Claude Code session. It will:
 
 ## Installation
 
+**Via npm (recommended):**
+
+```bash
+npm install -g claude-skill-session-handoff
+```
+
+**Via npx (no install needed):**
+
+```bash
+npx claude-skill-session-handoff
+```
+
+**Via git:**
+
 ```bash
 git clone https://github.com/samarthpatel24/claude-session-handoff.git ~/.claude/skills/session-handoff
 ```
 
-Or just copy the skill file:
-
-```bash
-mkdir -p ~/.claude/skills/session-handoff
-curl -o ~/.claude/skills/session-handoff/SKILL.md \
-  https://raw.githubusercontent.com/samarthpatel24/claude-session-handoff/main/session-handoff/SKILL.md
-```
+All methods copy the skill to `~/.claude/skills/session-handoff/`.
 
 ## Usage
 
