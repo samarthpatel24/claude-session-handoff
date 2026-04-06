@@ -1,4 +1,6 @@
-# claude-session-handoff
+<img src="icon/banner.svg" alt="claude-session-handoff" width="100%"/>
+
+<br/>
 
 A Claude Code skill that captures your session into a structured document — useful for carrying context between sessions, sharing progress with your team, or keeping a personal development log.
 
